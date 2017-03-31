@@ -11,6 +11,7 @@
         body {
             margin: 0;
             font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+            line-height: 1.75em;
         }
 
         iframe {
@@ -20,24 +21,40 @@
             overflow: scroll;
         }
 
+        header img {
+            margin: 5vh 4%;
+            width: 25%;
+        }
+
         header {
+            padding: 5vh 10vw 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
+        main {
             padding: 0 10vw 10px;
+        }
+
+        header,
+        main {
             border: 2px solid black;
             border-bottom: none;
             border-top: none;
-            line-height: 1.75em;
         }
 
         h1 {
             font-size: 3em;
             line-height: 1em;
-            padding: 1em 0;
+            padding: .75em 0;
             margin: 0;
         }
 
         h2 {
-          line-height: 1.5em;
+            line-height: 1.5em;
         }
+
     </style>
 </head>
 
@@ -46,6 +63,11 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
     <header>
+        <img src='/assets/images/kbw.png' style="max-width: 150px;" />
+        <img src='/assets/images/kse.png' style="max-width: 110px;" />
+        <img src='/assets/images/ksh.png' style="max-width: 150px;" />
+    </header>
+    <main>
         <h1>Zürcher IMS Alumni Netzwerk</h1>
         <p>
             Vor zwanzig Jahren lancierten Wirtschaftsverbände die Idee, InformatikerInnen mit vertieftem wirtschaftlichem Know-How auszubilden. Drei Jahre später startete die erste Zürcher IMS. Heute schreiben wir IMS 2.0: Ehemalige IMSler stellen in ihren (zum Teil
@@ -68,9 +90,9 @@
             Rund um einen Pastaplausch können die Teilnehmenden Erinnerungen auffrischen und Kontakte pflegen. Die Schulleitungen berichten kurz von den Freuden und Leiden der heutigen IMS. Und bereits sind uns auch Inputs von Ehemaligen zugesichert worden.
         </p>
         <p>
-            Haben wir Ihr Interesse geweckt? <a href="#sign-up">Jetzt Anmelden</a>:
+            Haben wir Ihr Interesse geweckt? <a href="#sign-up">Jetzt Anmelden (Mitgliedschaft ist <strong>kostenlos</strong> und ohne Pflichten)</a>:
         </p>
-    </header>
+    </main>
     <iframe id="sign-up" src="https://docs.google.com/forms/d/e/1FAIpQLSetHXRyj8z0Tvae6iKDWi1U47qu7b2SJnEh9Hghb-Tbpv8Sow/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </body>
 
